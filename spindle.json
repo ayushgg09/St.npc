@@ -1,0 +1,14 @@
+{
+  "identifier": "st_npc_book",
+  "name": "NPC-Book",
+  "version": "1.0.0",
+  "description": "Automated Lumiverse extension that extracts and updates individual, keyword-triggered NPC Lorebook entries in batch slices.",
+  "author": "Arczium (Lumiverse Spindle Port)",
+  "entry_frontend": "dist/frontend.js",
+  "permissions": [
+    "chat_mutation",
+    "interceptor",
+    "app_manipulation",
+    "generation"
+  ]
+}
